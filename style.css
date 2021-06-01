@@ -1,0 +1,136 @@
+body{ 
+    position: relative;
+    padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar-tems{
+    margin: 8px;
+}
+.nav{
+    margin-top: 5px;
+}
+ul li {
+    list-style-type: none;
+   display: inline-block
+
+}
+
+ul li a{
+    font-size:14px ;
+}
+#picture-profile{
+    width: 34px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.main{
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#menu-item{
+    width: 18px;
+}
+#main-logo{
+    width: 270px;
+    margin-bottom: 30px;
+}
+.input-group{
+    max-width: 40vw;
+}
+
+.main-search{
+    height: 46px;
+    width: 600px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    border-color: #dfe1e5;
+}
+
+.main-search:hover{
+    box-shadow: 2px 1px 2.1px 1px #D7D7D7;
+}
+.main-search:active{
+    box-shadow: 2px 1px 2.1px 1px #D7D7D7;
+}
+.inp-1{
+    margin-left: -500px;
+}
+#input-search{
+    width: 70%;
+    height: 40px;
+    border: 0 none;
+    outline: 0;
+    font-size: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#items-input{
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+#goup-button{
+    margin-top:32px
+}
+.button-search{
+    border-radius: 2px;
+    background-color: #F8F9FA;
+    border: 0 none;
+    box-shadow: 0.4px 0.1px 0.1px grey;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.button-search:hover{
+    box-shadow: 2px 1px 2.1px 1px #D7D7D7;
+}
+.author p{
+    font-size: 14px;
+}
+.footer{
+    bottom: 0;
+position: fixed;
+ background-color:#F2F2F2;
+ height: 15vh;
+ width: 100%;
+}
+.footer h6{
+    margin-left: 2vw;
+    margin-top: 10px;
+color:#969493;
+}
+.line{
+    border: 0;
+    border-top: 1px solid #CCC;
+}
+.text-footer{
+    float: left;
+   margin-top: 25px;
+   
+}
+.text-footer ul li{
+    margin-right: 20px;
+    color: #969493;
+   list-style: none;
+}
+
+.list-conf{
+   margin-top: 20px;
+   padding-right: 2vw;
+   color: #969493;
+   list-style: none;
+
+}
+.list-conf ul li{
+    margin-left: 2vw;
+}
